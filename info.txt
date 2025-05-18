@@ -6,3 +6,24 @@ What is the XOR Cipher?
 - Encrypts binary numbers
 - Every key on keyboard has an ASCII code
 - ASCII code is a combination of 8 binary digits
+- Each ASCII code can be represented as a sequence of 8 binary digits (bits), for example:'A' -> ASCII 65 -> Binary 01000001
+
+How XOR Encryption Works:
+The XOR operation outputs 1 if the bits are different, and 0 if they are the same:
+
+0 XOR 0 = 0  
+1 XOR 0 = 1  
+0 XOR 1 = 1  
+1 XOR 1 = 0
+To encrypt a message:
+
+Convert each character to binary (ASCII)
+
+XOR each bit with the corresponding bit of a key
+
+The result is the ciphertext
+
+To decrypt:
+
+XOR the ciphertext with the same key again
+XOR is reversible: (message XOR key) XOR key = message.
