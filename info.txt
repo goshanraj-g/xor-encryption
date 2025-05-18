@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=pvII6_O6KAc
+
+What is the XOR Cipher?
+
+- Heart of many modern ciphers
+- Encrypts binary numbers
+- Every key on keyboard has an ASCII code
+- ASCII code is a combination of 8 binary digits
